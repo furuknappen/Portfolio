@@ -1,0 +1,88 @@
+.cards-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  /* width: 91vw; */
+  /* border: 2px solid red; */
+  border-radius: var(--border-radius-big);
+  box-shadow: var(--shadow);
+  /* margin-inline: 0.5rem */
+  border: var(--container-border);
+  margin-bottom: 2rem;
+}
+
+.card a{
+  line-height: 30px;
+ 
+}
+
+.text-container {
+  display: flex;
+  padding-inline: 1rem;
+  flex-direction: column;
+}
+
+.img-container {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  /* aspect-ratio: 7/4; */
+  border-top-left-radius: var(--border-radius-big);
+  border-top-right-radius: var(--border-radius-big);
+
+}
+
+.card img {
+  width: 100%   ;
+  /* border-bottom: 1px solid rgb(102, 93, 93); */
+  border-bottom: var(--container-border);
+  /* box-shadow: var(--shadow); */
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.10);;
+
+}
+
+.card-description{
+  /* width: 90% */
+}
+
+
+.skill-container {
+  margin-bottom: 2rem;
+  /* margin-left: 2rem; */
+}
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+  /* .card {
+    border-radius: var(--border-radius-big);
+
+  } */
+
+.text-container {
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: row;
+}
+
+.skill-container {
+  margin-bottom: 0rem;
+  /* width: 250px; */
+  /* margin: 3rem; */
+  margin-inline: auto 3rem;
+ align-self: top;
+ /* border: 2px solid red; */
+
+}
+
+.right-container{
+  width: 70%
+}
+
+.card-description{
+ /* width: 80% */
+}
+
+}

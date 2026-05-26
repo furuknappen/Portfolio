@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.header {
+  background: var(--header-color);
+  height: 3rem;
+  border-bottom: var(--border);
+  box-shadow: var(--shadow);
+
+  display: flex;
+  align-items: center;
+  padding-inline: 2rem
+}
+
+.header-title {
+  font-size: 1.5rem;
+
+}
+
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 300px; */
+  min-height: 100vh;
+  margin: 0;
+  /* gap: 2rem */
+  /* margin-inline: 300px */
+}
+
+.main-content {
+  /* background: rgb(99, 184, 196); */
+  /* margin-left: 350px; */
+  margin-inline: 1rem;
+  /* margin-top: 2rem; */
+
+}
+
+.page-description {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  /* background: rgb(133, 201, 133); */
+}
+
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    min-height: 100vh;
+    margin: 0;
+    /* gap: 2rem */
+    margin-inline: 300px
+  }
+
+.main-content {
+  margin-top: 2rem;
+}
+}
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {}
+
+/*............ Large Desktops ................*/
+@media (min-width: 2550px) {}

@@ -1,0 +1,29 @@
+.sidebar {
+  background: var(--sidebar-color);
+  /* position: sticky; */
+  /* margin: 4rem 2rem; */
+  height: fit-content;
+  border: 2px solid var(--border-color);
+  padding: 1rem 2rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.address-title {
+  font-weight: 500;
+  /* margin-bottom: 2rem; */
+  font-style: normal;
+}
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px)  {
+
+.sidebar {
+  margin-top: 4rem;
+  position: sticky;
+  top: 1rem
+
+}
+}

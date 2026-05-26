@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+--header-color: rgb(255, 255, 255);
+--header-divider: var(var(--divider-color));
+
+
+--container-border: 1px solid var(--border-color);
+--sidebar-color: rgb(253, 247, 253);
+--border-color: rgb(240, 240, 240);
+--border-radius: 8px;
+--border-radius-big: 11px;
+
+--divider-color: rgb(231, 230, 230);
+--link-color: rgb(92, 90, 204);
+
+--card-background-color: rgb(238, 240, 253);
+--shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+/* --border:  1px solid var(--divider-color); */
+}
+
+
+
+
+
+
+
+
+
+body{
+  font-family: "IBM Plex Sans";
+  padding:0;
+  margin:0;
+ box-sizing: border-box;
+}
+
+h1{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+ h2{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+ }
+
+h3{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a{
+  font-style: normal;
+  color: var(--link-color);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px)  {
+h1{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 3.25rem
+}
+ h2{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+ }
+h3{
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+  
+}
